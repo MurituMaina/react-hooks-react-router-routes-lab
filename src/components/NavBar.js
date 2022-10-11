@@ -10,7 +10,7 @@ const styles = {
   color: "black",
 }
 function NavBar() {
-  return <div class="navbar"style={styles}>
+  return <div className="navbar"style={styles}>
     <NavLink to="/" style={styles} activeStyle={{background:"blue", color:"white"}}>
       Home
     </NavLink>
